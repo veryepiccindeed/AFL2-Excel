@@ -21,7 +21,7 @@
     {
         "src": "/assets/img/(.*)",
         "dest": "/public/assets/img/$1"
-    },
+    }
 ],
     "env": {
         "APP_ENV": "production",
