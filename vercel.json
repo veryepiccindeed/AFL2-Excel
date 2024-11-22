@@ -2,18 +2,15 @@
     "version": 2,
     "builds": [
       {
-        "src": "public/index.php",
-        "use": "@vercel/php"
+        "src": "dist/**",
+        "use": "@vercel/static"
       }
     ],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "/public/index.php"
+        "dest": "/dist/$1"
       }
-    ],
-    "env": {
-      "COMPOSER_ALLOW_SUPERUSER": "1"
-    }
-}
+    ]
+  }
   
