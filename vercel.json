@@ -18,9 +18,8 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",
-        "APP_URL": "https://excellmp.vercel.app",
+        "APP_URL": "https://afl-2-excel.vercel.app",
         "APP_KEY": "base64:H/zBmGWPqvkTq7g5KuF9WSlF/lr0f4we6REQrVKqmn0=",
-        "ASSET_URL": "public/assets",
 
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
